@@ -1,27 +1,44 @@
-# PortfolioManagementSystem
+# Portfolio Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This is a sample implementation of a Financial Portfolio Management System in Angular.
 
-## Development server
+## Running the Application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `ng serve` to start the application
+4. Open `http://localhost:4200` in your browser to access the application
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Dashboard Design and Implementation
+	* Displays key portfolio information such as asset allocation, and performance metrics
+	* Implements interactive charts to visualize portfolio performance over time
+	* Maintains responsive design for different device compatibility
+2. Form Creation and Validation
+	* Creates a form for users to input their investment details including asset type, quantity, purchase price, and date
+	* Provides an ability to review user input before submission
+	* Validates the form inputs to ensure data accuracy and completeness before submitting
+3. Client-side validation using Angular's built-in form validation features
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Angular 12
+* TypeScript
+* HTML5
+* CSS3
+* Highcharts for charting
+* Bootstrap for responsive design
 
-## Running unit tests
+## Folder Structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* `src/app`: Application components and services
+* `src/app/dashboard`: Dashboard component and related files
+* `src/app/forms`: Form component and related files
+* `src/app/mock.service.ts`: Mock service for simulating backend API calls
+* `src/assets`: Static assets such as images and fonts
+* `src/environments`: Environment configuration files
+* `src/index.html`: Application entry point
+* `src/main.ts`: Application main file
+* `src/styles.css`: Global styles file
+* `src/test.ts`: Test configuration file
